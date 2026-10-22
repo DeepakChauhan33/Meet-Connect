@@ -11,7 +11,7 @@ const LoginPage = () => {
       <section className='hidden w-screen h-screen md:flex justify-between items-center'>
 
 
-        <div className='w-[55%] h-full   bg-blue-400 p-2'>
+        <div className=' w-[45%] h-full   bg-blue-400 p-2'>
           {/* Left Side Image */}
           <img src={LoginIllustration} alt="Image" className='h-full w-full object-cover' />
         </div>
@@ -19,11 +19,11 @@ const LoginPage = () => {
 
 
 
-        <div className='flex-1 h-full p-4'>
+        <div className='flex-1 h-full p-10'>
 
           <form
             action=""
-            className=' h-full border px-4 py-10 space-y-6'
+            className=' h-full border px-8 py-10  space-y-6'
           >
             {/* Form heading */}
             <h2 className='text-2xl font-extrabold text-center mb-10'>Welcome Back !</h2>
