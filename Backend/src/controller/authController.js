@@ -4,7 +4,7 @@ const {registerUser, } = require("../services/authServices");
 
 
 
-
+// Register New User
 const register = async (req, res) => {
   try {
 
